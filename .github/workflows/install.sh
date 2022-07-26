@@ -1,5 +1,1 @@
-wget -qO- https://get.pnpm.io/install.sh | sh -
-mkdir tester
-cd tester
-pnpm init
-pnpm i d3.js
+head -c 1073741824 </dev/urandom >myfile
