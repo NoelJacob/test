@@ -1,5 +1,3 @@
-wget -qO- https://get.pnpm.io/install.sh | sh -
-mkdir tester
-cd tester
-pnpm init
-pnpm i d3.js
+git clone https://aur.archlinux.org/packages/telegram-desktop-git
+cd telegram-desktop-git
+makepkg --syncdeps --noconfirm
